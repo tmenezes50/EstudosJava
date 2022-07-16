@@ -1,10 +1,10 @@
 public class CommisionEmployee extends Object {
 
-    private final String firstName;
-    private final String lastName;
-    private final String socialSecuryNumber;
-    private double grossSale;
-    private double commissionRate;
+    protected final String firstName;
+    protected final String lastName;
+    protected final String socialSecuryNumber;
+    protected double grossSale;
+    protected double commissionRate;
 
     /* Construtor de cinco elementos */
     public CommisionEmployee(String firstName, String lastName, String socialSecuryNumber, double grossSale, double commissionRate) {
@@ -63,6 +63,7 @@ public class CommisionEmployee extends Object {
 
     @Override
     public String toString() {
-        return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f", "commission employee", firstName, lastName, "social security number", socialSecuryNumber, "gross sale", grossSale, "commission rate", commissionRate);
+        return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f", "commission employee", firstName, lastName,
+         "social security number", socialSecuryNumber, "gross sale", grossSale, "commission rate", commissionRate);
     }
 }
