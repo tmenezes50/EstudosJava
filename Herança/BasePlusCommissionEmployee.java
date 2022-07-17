@@ -1,3 +1,5 @@
+package Herança;
+
 public class BasePlusCommissionEmployee extends CommisionEmployee {
     private double baseSalary;
 

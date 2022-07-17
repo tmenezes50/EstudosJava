@@ -1,8 +1,6 @@
 package Polimorfismo;
 
-import java.lang.reflect.Constructor;
-
-public class Employee {
+public abstract class Employee {
     private final String firstName;
     private final String lastName;
     private final String socialSecurityNumber;

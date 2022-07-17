@@ -1,6 +1,5 @@
 package Polimorfismo;
 
-import java.time.temporal.WeekFields;
 
 public class SalariedEmployee extends Employee {
     private double weeklySalary;

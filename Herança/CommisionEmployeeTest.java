@@ -1,3 +1,5 @@
+package Herança;
+
 public class CommisionEmployeeTest {
     public static void main(String[] args) {
         CommisionEmployee employee = new CommisionEmployee("Sue", "Jones", "222-222-222", 10000, 0.6);

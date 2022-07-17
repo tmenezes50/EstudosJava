@@ -1,3 +1,5 @@
+package Herança;
+
 public class BasePlusCommisionEmployee {
     private final String firstName;
     private final String lastName;

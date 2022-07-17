@@ -1,3 +1,6 @@
+package Herança;
+
+
 public class BasePlusCommisionEmployeeTest {
     public static void main(String[] args) {
         

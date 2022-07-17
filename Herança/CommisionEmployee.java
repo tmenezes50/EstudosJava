@@ -1,3 +1,5 @@
+package Herança;
+
 public class CommisionEmployee extends Object {
 
     private final String firstName;

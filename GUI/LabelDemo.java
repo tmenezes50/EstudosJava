@@ -19,7 +19,7 @@ public class LabelDemo {
         application.add(centerLabel, BorderLayout.CENTER);
         application.add(southLabel, BorderLayout.SOUTH);
 
-        application.setSize(300, 300);
+        application.setSize(700, 700);
         application.setVisible(true);
 
     }
