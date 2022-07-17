@@ -24,12 +24,12 @@ public class BasePlusCommissionEmployee extends CommisionEmployee {
 
     @Override
     public double earnings() {
-        return baseSalary + (commissionRate * grossSale);
+        return baseSalary + (getCommissionRate() * getGrossSale());
     }
 
     @Override
     public String toString() {
-        return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f%n%s: %.2f", "commission employee", firstName, lastName,
-        "social security number", socialSecuryNumber, "gross sale", grossSale, "commission rate", commissionRate, "base salary", baseSalary);
+        return String.format("%s: %s %s%n%s: %s%n%s: %.2f%n%s: %.2f%n%s: %.2f", "commission employee", getFirstName(), getLastName(),
+        "social security number", getSocialSecuryNumber(), "gross sale", getGrossSale(), "commission rate", getCommissionRate(), "base salary", baseSalary);
     }
 }
