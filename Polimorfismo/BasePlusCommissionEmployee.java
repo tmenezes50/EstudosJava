@@ -1,4 +1,4 @@
-package Polimorfismo;
+/* package Polimorfismo;
 
 public class BasePlusCommissionEmployee extends CommissionEmployee {
     private double baseSalary;
@@ -36,4 +36,4 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
         return String.format("%s %s; %s: $%,.2f", "base-salaried", 
         super.toString(), "base salary", getBaseSalary());
     }
-}
+} */

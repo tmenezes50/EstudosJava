@@ -1,4 +1,4 @@
-package Polimorfismo;
+/* package Polimorfismo;
 
 public class HourlyEmployee extends Employee {
     private double wage;
@@ -57,3 +57,4 @@ public class HourlyEmployee extends Employee {
 
 
 }
+ */

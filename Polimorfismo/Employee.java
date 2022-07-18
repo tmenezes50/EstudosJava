@@ -1,6 +1,6 @@
 package Polimorfismo;
 
-public abstract class Employee {
+public abstract class Employee implements Payble {
     private final String firstName;
     private final String lastName;
     private final String socialSecurityNumber;
@@ -28,6 +28,5 @@ public abstract class Employee {
         return String.format("%s %s\nsocial security number: %s\n", getFirstName(), getLastName(), getSocialSecurityNumber());
     }
 
-    public abstract double earnings();
 
 }
