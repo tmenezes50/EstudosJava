@@ -7,7 +7,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JColorChooser;
 import javax.swing.JPanel;
-import javax.swing.border.Border;
 
 public class ShowColors2JFrame extends JFrame {
     private final JButton changeColorJButton;
