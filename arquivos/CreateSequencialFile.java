@@ -15,7 +15,7 @@ public class CreateSequencialFile {
 
     public static void openFile() {
         try {
-            output = new ObjectOutputStream(Files.newOutputStream(Paths.get("clientes.txt")));
+            output = new ObjectOutputStream(Files.newOutputStream(Paths.get("clientes.ser")));
         } catch (IOException ioException) {
             System.err.println("Error opening file. Terminating.");
             System.exit(1);
