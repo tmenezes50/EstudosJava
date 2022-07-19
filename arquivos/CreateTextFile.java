@@ -16,6 +16,7 @@ public class CreateTextFile {
         openFile();
         addRecords();
         closeFile();
+        
     }
 
     public static void openFile() {
