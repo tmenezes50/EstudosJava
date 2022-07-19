@@ -31,18 +31,18 @@ public class CreateTextFile {
     }
 
     public static void addRecords() {
-        Scanner input = new Scanner(System.in);
-        System.out.printf("%s\n%s\n? ", "Enter account number, first name, last name and balance.", "Enter end-of-file indicator to end input.");
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("%s\n%s\n? ", "Enter account number, first name, last name and balance.", "Enter end-of-file indicator to end scanner.");
 
-        while (input.hasNext()) {
+        while (scanner.hasNext()) {
             try {
-                output.format("%d %s %s %.2f\n", input.nextInt(), input.next(), input.next(), input.nextDouble());
+                output.format("%d %s %s %.2f\n", scanner.nextInt(), scanner.next(), scanner.next(), scanner.nextDouble());
             } catch (FormatterClosedException formatterClosedException) {
                 System.err.println("Error writing to file. Terminating.");
                 break;
             } catch (NoSuchElementException elementException) {
-                System.err.println("Invalid input. Please try again.");
-                input.nextLine();
+                System.err.println("Invalid scanner. Please try again.");
+                scanner.nextLine();
             }
 
             System.out.println("? ");
